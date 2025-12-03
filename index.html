@@ -1,0 +1,457 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoPremium - Concesionaria de Autos de Lujo</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+   
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <i class="fas fa-car-side me-2"></i>
+                    <span>AutoPremium</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="inventario.html">Inventario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registro.html">Registro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promociones">Promociones</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+   
+    <div class="container-fluid mt-5 pt-4">
+        <div class="row g-4">
+        
+            <aside class="col-lg-3 col-md-4">
+                <div class="sidebar sticky-top">
+                    <div class="sidebar-content">
+                        <h3 class="mb-4">Promociones Especiales</h3>
+                        <div class="promo-card mb-3">
+                            <i class="fas fa-tag"></i>
+                            <h4>Financiamiento 0%</h4>
+                           <p>Estrena el auto de tus sueños con financiamiento al 0% de interés. Solicita tu crédito en la concesionaria y llévatelo hoy mismo con pagos cómodos y sin costo adicional por financiamiento.</p>
+                        </div>
+                        <div class="promo-card mb-3">
+                            <i class="fas fa-gift"></i>
+                            <h4>Seguro Incluido</h4>
+                            <p>Tu seguridad es primero. Todos nuestros autos incluyen seguro básico contra daños y robo, para que solo te preocupes por disfrutar el camino.</p>
+                        </div>
+                        <div class="promo-card mb-3">
+                            <i class="fas fa-star"></i>
+                            <h4>Mantenimiento Gratis</h4>
+                            <p>Tu auto de lujo merece el mejor cuidado. Incluimos servicios de mantenimiento sin costo para que solo te enfoques en manejar.</p>
+                        </div>
+                        <a href="registro.html" class="btn btn-primary w-100 sidebar-btn">
+                            <i class="fas fa-user-plus"></i> Registrarse
+                        </a>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="col-lg-9 col-md-8">
+           
+            <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Encuentra el Auto de tus Sueños</h1>
+            <p class="hero-subtitle">Los mejores vehículos con la mejor financiación</p>
+            <a href="inventario.html" class="btn btn-primary">Ver Inventario</a>
+        </div>
+    </section>
+
+    <
+    <section class="features py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">¿Por qué elegirnos?</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="feature-card h-100 text-center p-4">
+                        <div class="feature-icon mx-auto mb-3">
+                            
+                        </div>
+                        <h3>Garantía Total</h3>
+                        <p>Disfruta la tranquilidad de estrenar con respaldo completo. Todos nuestros vehículos cuentan con garantía total para que solo te preocupes por manejar y nosotros nos encargamos del resto.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="feature-card h-100 text-center p-4">
+                        <div class="feature-icon mx-auto mb-3">
+                          >
+                        </div>
+                        <h3>Mejores Precios</h3>
+                        <p>Te ofrecemos autos de lujo con las mejores condiciones del mercado. Comparamos y ajustamos nuestros precios para que encuentres la opción ideal sin pagar de más.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="feature-card h-100 text-center p-4">
+                        <div class="feature-icon mx-auto mb-3">
+                            
+                        </div>
+                        <h3>Servicio Técnico</h3>
+                        <p>Nuestro taller especializado mantiene tu auto en perfectas condiciones. Contamos con técnicos certificados, refacciones originales y atención rápida para cuidarlo como se merece.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="feature-card h-100 text-center p-4">
+                        <div class="feature-icon mx-auto mb-3">
+                            <p>Elige el plan que mejor se adapte a ti. Contamos con esquemas de financiamiento flexibles, mensualidades accesibles y asesoría personalizada para que estrenes hoy mismo.</p>
+                        </div>
+                        <h3>Financiamiento Flexible</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="featured-cars py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Vehículos Destacados</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="car-card card h-100 shadow-sm">
+                        <div class="car-image position-relative">
+                            <div class="car-placeholder d-flex align-items-center justify-content-center">
+                                <img src="img ordinario/" alt="Sedan Premium 2024" class="w-100 h-100" style="object-fit: cover;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <span class="car-badge position-absolute top-0 end-0 m-3">Nuevo</span>
+                        </div>
+                        <div class="car-info card-body">
+                            <h3 class="card-title">Sedan Premium 2024</h3>
+                            <p class="car-price fs-4 fw-bold">$45,999</p>
+                            <ul class="car-specs list-unstyled d-flex flex-wrap gap-3 mb-3">
+                                <li><i class="fas fa-gas-pump"></i> 25 MPG</li>
+                                <li><i class="fas fa-cog"></i> Automático</li>
+                                <li><i class="fas fa-users"></i> 5 Pasajeros</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary w-100">Ver Detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="car-card card h-100 shadow-sm">
+                        <div class="car-image position-relative">
+                            <div class="car-placeholder d-flex align-items-center justify-content-center">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <span class="car-badge position-absolute top-0 end-0 m-3">Popular</span>
+                        </div>
+                        <div class="car-info card-body">
+                            <h3 class="card-title">SUV Deportivo 2024</h3>
+                            <p class="car-price fs-4 fw-bold">$52,999</p>
+                            <ul class="car-specs list-unstyled d-flex flex-wrap gap-3 mb-3">
+                                <li><i class="fas fa-gas-pump"></i> 22 MPG</li>
+                                <li><i class="fas fa-cog"></i> Automático</li>
+                                <li><i class="fas fa-users"></i> 7 Pasajeros</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary w-100">Ver Detalles</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="car-card card h-100 shadow-sm">
+                        <div class="car-image position-relative">
+                            <div class="car-placeholder d-flex align-items-center justify-content-center">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <span class="car-badge position-absolute top-0 end-0 m-3">Oferta</span>
+                        </div>
+                        <div class="car-info card-body">
+                            <h3 class="card-title">Hatchback Elégant 2023</h3>
+                            <p class="car-price fs-4 fw-bold">$28,999</p>
+                            <ul class="car-specs list-unstyled d-flex flex-wrap gap-3 mb-3">
+                                <li><i class="fas fa-gas-pump"></i> 30 MPG</li>
+                                <li><i class="fas fa-cog"></i> Manual</li>
+                                <li><i class="fas fa-users"></i> 5 Pasajeros</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary w-100">Ver Detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="inventario.html" class="btn btn-primary btn-lg">Ver Todo el Inventario</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="services py-5">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Nuestros Servicios</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="service-card card h-100 text-center p-4">
+                        <i class="fas fa-car-side fs-1 mb-3"></i>
+                        <h3 class="card-title">Venta de Autos</h3>
+                        <p class="card-text">Compacto, práctico y económico en consumo de combustible. Ideal para la ciudad, fácil de estacionar, con buena tecnología interior y espacio suficiente para el día a día.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="service-card card h-100 text-center p-4">
+                        <i class="fas fa-exchange-alt fs-1 mb-3"></i>
+                        <h3 class="card-title">Permuta</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="service-card card h-100 text-center p-4">
+                        <i class="fas fa-file-invoice-dollar fs-1 mb-3"></i>
+                        <h3 class="card-title">Financiamiento</h3>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="service-card card h-100 text-center p-4">
+                        <i class="fas fa-wrench fs-1 mb-3"></i>
+                        <h3 class="card-title">Mantenimiento</h3>
+                        <p class="card-text">Camioneta espaciosa con tres filas de asientos, amplio espacio de cajuela y asistencias avanzadas de conducción. Perfecta para viajes largos, con la comodidad y seguridad que tu familia necesita</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            
+            <section class="carousel-section py-5" id="galeria">
+                <div class="container">
+                    <h2 class="section-title text-center mb-5">Galería de Vehículos</h2>
+                    <div class="swiper carousel-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="carousel-slide">
+                                    <div class="carousel-image">
+                                        <i class="fas fa-car"></i>
+                                    </div>
+                                    <div class="carousel-content">
+                                        <h3>Sedan de Lujo</h3>
+                                        <p>Auto de dos puertas con motor potente, aceleración rápida y suspensión deportiva. Diseñado para quienes disfrutan de la velocidad, el manejo preciso y un diseño agresivo y llamativo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="carousel-slide">
+                                    <div class="carousel-image">
+                                        <i class="fas fa-car"></i>
+                                    </div>
+                                    <div class="carousel-content">
+                                        <h3>SUV Premium</h3>
+                                        <p>Un sedán de cuatro puertas con interiores en piel, tablero digital y sistema de sonido premium. Ideal para quienes buscan confort, elegancia y una conducción suave en ciudad y carretera.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="carousel-slide">
+                                    <div class="carousel-image">
+                                        <i class="fas fa-car"></i>
+                                    </div>
+                                    <div class="carousel-content">
+                                        <h3>Hatchback Deportivo</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="carousel-slide">
+                                    <div class="carousel-image">
+                                        <i class="fas fa-car"></i>
+                                    </div>
+                                    <div class="carousel-content">
+                                        <h3>Pickup Potente</h3>
+                                        <p>Combina motor a gasolina y motor eléctrico para reducir el consumo y las emisiones. Ofrece un manejo silencioso, tecnología avanzada y ahorro de combustible sin perder estilo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="carousel-slide">
+                                    <div class="carousel-image">
+                                        <i class="fas fa-car"></i>
+                                    </div>
+                                    <div class="carousel-content">
+                                        <h3>Coupé Elegante</h3>
+                                        <p>Auto descapotable con techo retráctil, interiores refinados y acabado exterior brillante. Pensado para disfrutar el camino, el clima y llamar la atención dondequiera que vayas.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+
+     
+            <section class="testimonials-section py-5" id="testimonios">
+                <div class="container">
+                    <h2 class="section-title text-center mb-5">Lo que dicen nuestros clientes</h2>
+                    <div class="row g-4">
+                        <article class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="testimonial-card card h-100 shadow-sm position-relative" data-aos="fade-up" data-aos-delay="0">
+                                <div class="testimonial-quote position-absolute top-0 end-0 m-3">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="card-body p-4">
+                                    <p class="testimonial-text card-text">Desde que entré a la concesionaria me atendieron como cliente VIP. Me explicaron cada detalle de los autos, me ofrecieron prueba de manejo y resolvieron todas mis dudas sin presionarme a comprar. Al final elegí un sedán de lujo y todo el proceso fue rápido y claro. Sin duda regresaré para mi próximo</p>
+                                    <div class="testimonial-author d-flex align-items-center mt-3">
+                                        <div class="author-avatar me-3">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h5 class="mb-0">Carlos Mendoza</h5>
+                                            <small class="text-muted">Cliente Satisfecho</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="testimonial-card card h-100 shadow-sm position-relative" data-aos="fade-up" data-aos-delay="100">
+                                <div class="testimonial-quote position-absolute top-0 end-0 m-3">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="card-body p-4">
+                                    <p class="testimonial-text card-text">Me sorprendió la variedad de autos premium que manejan, desde deportivos hasta SUVs familiares. El asesor que me atendió escuchó lo que necesitaba y me recomendó el modelo ideal para mi presupuesto. Además, me apoyaron con el trámite del crédito y la entrega fue puntual y sin contratiempos</p>
+                                    <div class="testimonial-author d-flex align-items-center mt-3">
+                                        <div class="author-avatar me-3">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h5 class="mb-0">María González</h5>
+                                            <small class="text-muted">Cliente Satisfecho</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="testimonial-card card h-100 shadow-sm position-relative" data-aos="fade-up" data-aos-delay="200">
+                                <div class="testimonial-quote position-absolute top-0 end-0 m-3">
+                                    <i class="fas fa-quote-left"></i>
+                                </div>
+                                <div class="card-body p-4">
+                                    <p class="testimonial-text card-text">Buscaba un auto de lujo, pero también seguridad y garantía. En esta concesionaria me mostraron el historial de cada vehículo, sus características y los beneficios de servicio postventa. Sentí mucha confianza y eso fue lo que me hizo decidirme. Hoy disfruto mi coche sabiendo que tengo un respaldo profesional detrás</p>
+                                    <div class="testimonial-author d-flex align-items-center mt-3">
+                                        <div class="author-avatar me-3">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div class="author-info">
+                                            <h5 class="mb-0">Juan Pérez</h5>
+                                            <small class="text-muted">Cliente Satisfecho</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            
+
+            </main>
+        </div>
+    </div>
+
+  
+    <footer class="footer bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h3 class="mb-3">AutoPremium</h3>
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <div class="social-links d-flex gap-2">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4 class="mb-3">Enlaces Rápidos</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white text-decoration-none">Inicio</a></li>
+                        <li class="mb-2"><a href="inventario.html" class="text-white text-decoration-none">Inventario</a></li>
+                        <li class="mb-2"><a href="nosotros.html" class="text-white text-decoration-none">Nosotros</a></li>
+                        <li class="mb-2"><a href="contacto.html" class="text-white text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4 class="mb-3">Servicios</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Venta de Autos</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Permuta</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Financiamiento</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none">Mantenimiento</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <h4 class="mb-3">Contacto</h4>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><i class="fas fa-map-marker-alt me-2"></i> Av. Principal 123, Ciudad</li>
+                        <li class="mb-2"><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</li>
+                        <li class="mb-2"><i class="fas fa-envelope me-2"></i> info@autopremium.com</li>
+                        <li class="mb-2"><i class="fas fa-clock me-2"></i> Lun-Vie: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom text-center mt-4 pt-3 border-top border-secondary">
+                <p class="mb-0">&copy; 2024 AutoPremium. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - AutoPremium</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  
+   
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <i class="fas fa-car-side"></i>
+                    <span>AutoPremium</span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="inventario.html">Inventario</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html" class="active">Registro</a></li>
+                </ul>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content-single">
+        
+        <section class="page-header">
+            <div class="container">
+                <h1>Registro de Usuario</h1>
+                <p>Crea tu cuenta para acceder a ofertas exclusivas y servicios personalizados</p>
+            </div>
+        </section>
+
+        <section class="registration-section">
+            <div class="container">
+                <div class="registration-wrapper">
+                    <aside class="registration-sidebar">
+                        <h3>Beneficios de Registrarte</h3>
+                        <ul class="benefits-list">
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Acceso a ofertas exclusivas</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Notificaciones de nuevos vehículos</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Financiamiento preferencial</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Seguimiento de tu vehículo</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-check-circle"></i>
+                                <span>Asesoría personalizada</span>
+                            </li>
+                        </ul>
+                        <div class="info-box">
+                            <i class="fas fa-info-circle"></i>
+                            <p>
+Deberás ser un cliente exclusivo para disfrutar de todos estos beneficios que tenemos para ti.
+¡Regístrate ahora y empieza a vivir la experiencia premium que mereces</p>
+                        </div>
+                    </aside>
+
+                    <div class="registration-form-wrapper">
+                        <h2>Crear Cuenta</h2>
+                        <form class="registration-form" id="registrationForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" id="nombre" name="nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="apellido">Apellido</label>
+                                    <input type="text" id="apellido" name="apellido" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                                    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="genero">Género</label>
+                                    <select id="genero" name="genero" required>
+                                        <option value="">Seleccionar</option>
+                                        <option value="masculino">Masculino</option>
+                                        <option value="femenino">Femenino</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="direccion">Dirección</label>
+                                <input type="text" id="direccion" name="direccion" required>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="ciudad">Ciudad</label>
+                                    <input type="text" id="ciudad" name="ciudad" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="codigoPostal">Código Postal</label>
+                                    <input type="text" id="codigoPostal" name="codigoPostal" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="password">Contraseña</label>
+                                <input type="password" id="password" name="password" required minlength="8">
+                                <small>Mínimo 8 caracteres</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="confirmPassword">Confirmar Contraseña</label>
+                                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="terminos" name="terminos" required>
+                                    <span>Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de privacidad</a></span>
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span>Deseo recibir información sobre promociones y ofertas especiales</span>
+                                </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-user-plus"></i> Crear Cuenta
+                            </button>
+
+                            <div class="form-footer">
+                                <p>¿Ya tienes una cuenta? <a href="contacto.html">Inicia sesión</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+   footer
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>AutoPremium</h3>
+                    <p>¡Felicidades! Has revisado la colección de autos de lujo. 🚗✨
+Ahora estás a un paso de elegir el vehículo que mejor refleja tu estilo y tu éxito.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="inventario.html">Inventario</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="registro.html">Registro</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Venta de Autos</a></li>
+                        <li><a href="#">Permuta</a></li>
+                        <li><a href="#">Financiamiento</a></li>
+                        <li><a href="#">Mantenimiento</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Av. Principal 123, Ciudad</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@autopremium.com</li>
+                        <li><i class="fas fa-clock"></i> Lun-Vie: 9:00 AM - 7:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AutoPremium. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+   
+    <script src="js/script.js"></script>
+</body>
+</html>
+
